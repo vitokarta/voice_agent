@@ -10,6 +10,7 @@ export default defineConfig({
   },
   preview: {
     port: 3000,     // ⬅️ 預覽模式（npm run preview）使用的 port
-    host: true      // ⬅️ 同樣對外開放
+    host: true,     // ⬅️ 同樣對外開放
+    allowedHosts: ['d2es4l7u4ujgso.cloudfront.net']  // ✅ 加入這行
   }
 })
