@@ -1,6 +1,5 @@
 FROM node:18
 WORKDIR /app
-ENV VITE_API_URL=${VITE_API_URL}
 COPY . .
 RUN npm install
 RUN npm run build

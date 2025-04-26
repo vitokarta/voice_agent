@@ -1,6 +1,8 @@
+//client\src\App.jsx
 import { useState, useEffect } from 'react'
 
 function App() {
+  console.log("✅ VITE_API_URL =", import.meta.env.VITE_API_URL) // ✅ 印出目前設定的 API URL
   const [transcript, setTranscript] = useState("")
   const [response, setResponse] = useState("")
   const [chatHistory, setChatHistory] = useState([])

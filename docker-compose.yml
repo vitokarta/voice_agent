@@ -5,7 +5,7 @@ services:
     ports:
       - "3000:3000"
     environment:
-      - VITE_API_URL=http://localhost:8080
+      - VITE_API_URL=https://d32sl91owll8mu.cloudfront.net
 
 
   server:
